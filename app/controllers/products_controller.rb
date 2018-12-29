@@ -4,6 +4,6 @@ class ProductsController < ApplicationController
   end
 
   def add
-    binding.pry
+    byebug
   end
 end
