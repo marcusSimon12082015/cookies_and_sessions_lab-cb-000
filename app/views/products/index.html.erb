@@ -1,0 +1,5 @@
+<h1>Add products</h1>
+<%= form_tag(controller:"products",action:"add", method:"post") do %>
+  <%= text_field_tag(:g) %>
+  <%= submit_tag("Add") %>
+<% end %>
