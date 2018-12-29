@@ -3,6 +3,6 @@
   <%= text_field_tag(:product) %>
   <%= submit_tag("add to cart") %>
 <% end %>
-<% @products.each do |product| %>
+<% session[:cart].each do |product| %>
   <p><%= product %></p>
 <% end %>
